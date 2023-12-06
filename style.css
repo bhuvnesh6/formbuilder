@@ -1,0 +1,60 @@
+
+h1{
+    background-color: red;
+}
+
+.continer{
+    margin: 10px;
+    padding: 5px;
+}
+
+.content{
+    display:block;
+    text-decoration: none;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.headingcont{
+    display: none;
+}
+
+.content h2{
+    cursor: pointer;
+}
+
+.content h2:hover{
+    text-decoration: underline;
+}
+
+
+
+ .inp{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+
+.que{
+    display: none;
+}
+
+section{
+    border: 1px solid red;
+    text-align: left;
+    align-items: left;
+    padding: 10px;
+    margin-bottom:10px ;
+}
+
+.option{
+    display: flex;}
+
+    .showpp{
+        display: none;
+    }
+
+.showSELCT{
+    display: none;
+}

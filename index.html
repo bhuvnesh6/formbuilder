@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ui for form builder</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Start building your customize form</h1>
+    <div class="continer">
+        <!--Add questions-->
+        <button class="write">Add question</button>
+        <!--ans-->
+        <button class="addelem" onclick="addANs()">Add Ans</button>
+        <button class="addmcq" onclick="showpop()">Add mcq</button>
+        <button class="addelem" onclick="showpop()">Add select</button>
+    </div>
+    <div class="showpp">
+        <input type="text" name="" class="optionv" placeholder="enter Value">
+        <button onclick="addmcq()">Add option</button>
+    </div>
+
+    <div class="showSELCT">
+        <input type="text" name="" class="optionS" placeholder="enter Value">
+        <button onclick="addSEL()">Add option</button>
+    </div>
+    <div class="headingcont">
+        <input type="text" name="" id="heading" placeholder="Write your heading">
+        <button class="gete" onclick="changeh()"> add heading</button>
+    </div>
+    <div class="que">
+        <input type="text" name="" id="question" placeholder="write your questions">
+        <button onclick="addque()">add</button>
+    </div>
+    <div class="content">
+        <h2>Add heading</h2>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
